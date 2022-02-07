@@ -11,5 +11,7 @@ server:
 	g++ -o ./bin/srv ./bin/srv.o
 
 install:
-	cp ./bin/cliSrv ~/bin/
-	chmod +x ~/bin/cliSrv
+	cp ./bin/cli ~/bin/
+	cp ./bin/srv ~/bin/
+	chmod +x ~/bin/srv
+	chmod +x ~/bin/cli
